@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public class CarRental {
 	
-	public LocalDateTime start;
+	private LocalDateTime start;
 	private LocalDateTime finish;
 	
 	private Vehicle vehicle;

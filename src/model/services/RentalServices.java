@@ -21,7 +21,7 @@ public class RentalServices {
 	public void processInvoice(CarRental carRental) {
 		
 		double minutes = Duration.between(carRental.getStart(), carRental.getFinish()).toMinutes();
-		double hours = minutes / 60.0;
+		double hours = minutes / 60.0; // conversão
 		
 		double basicPayment;
 		if (hours <= 12.0) {
